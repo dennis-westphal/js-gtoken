@@ -17,7 +17,7 @@ const GOOGLE_REVOKE_TOKEN_URLS =
 const TESTDATA = {
   email: 'email@developer.gserviceaccount.com',
   scope: 'scope123',  // or space-delimited string of scopes
-  key: KEYCONTENTS
+  key: "-----BEGIN RSA PRIVATE KEY-----\nMIICXAIBAAKBgQDnKHOGLUthrSiZ73RA7OGuVj4gAgw7QhLK5PecVk/jLAYgtiA+\nlZKgVOMQjGSAH3J3WDVdJNP2AjaMPb93EOIOAGVdz9Olwh0BKYHmPIgqRHjCw4Il\nyPJIkoBkeTpUXxJl46R6cdeXOzAJal2fxom3yUqvkXsJ9+owREa3WwaZdwIDAQAB\nAoGBAM6Mlq2OS4077Muf64EYKZBd/6UaL1PD9obVkWtgtIGJFPClzKoffKVHNJ3U\n1PinIOEDMKvJ/JwV3ifyBOOfclzdhwQId3Stvr2/7Y0O+sTxQ8bNPu7FuXeiEVg8\ncc2g2r1gzrieK1F+innPIzON8uwhRfnGYUBjgVlAqjSUmeIBAkEA+0Nmm2lYW8yZ\nffukkdiYOUANytg6u4u2Y8NTgKSqjdhUu2FZw+RK5mGFnT9qTR5/hJHEOl8l5GxP\nhxU+Ck1AUwJBAOuEBa+J7hyBvHMZXWFZT4sLIyF8nGnVGKMWnwoqvijm1vtxvXDN\nCh6vxbe6UK2R2wNQcU0yzaw+qVVhFXBGrc0CQAzWAKPn2c+2wBCjjmC1A/HIx+uY\n6Ec0d/jYvadQwjXE229HJeLQAtOKH91MpA2UhUcsey3QNotYzSdFeonkMGkCQBUK\na3OeT/6N/KcPyg7rarbSXOYd+t9doWDYoYbIAMsorGY0aCdOuiu5qmFarOCE2ls2\ncZjjBAryYjB1hvPL7LUCQC8d8Y1v7z6oS2tMZukAcUUlu38K5dwysdgY3dhgmNWl\nNPyXxhPIogoPsSRFbS4PjJpNUFqRY/GTNO/btmBXvts\u003d\n-----END RSA PRIVATE KEY-----\n"
 };
 
 nock.disableNetConnect();
