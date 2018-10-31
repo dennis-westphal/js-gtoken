@@ -164,16 +164,6 @@ describe('.getToken()', () => {
     });
   });
 
-  it('should accept additional claims', async () => {
-    const opts = Object.assign(
-        TESTDATA, {additionalClaims: {fancyClaim: 'isFancy'}});
-    const gtoken = new GoogleToken(opts);
-    const scope = createGetTokenMock();
-    const token = await gtoken.getToken();
-    scope.done();
-    assert.deepStrictEqual(gtoken.key, KEYCONTENTS);
-  });
-
   it('should return cached token if not expired', done => {
     const gtoken = new GoogleToken(TESTDATA);
     gtoken.token = 'mytoken';
